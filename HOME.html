@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styled Page</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+.indented {
+    text-indent: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #2980b9;
+}
+
+    </style>
 </head>
 <body>
-<p>This is my First Webpage.</p>
+    <h1>Main Heading</h1>
+    <h2>Subheading 1</h2>
+    <p class="indented">This is a well-indented paragraph that provides additional information. It explains the context of the headings above and offers insight into the topic at hand.</p>
+    
+    <h2>Subheading 2</h2>
+    <p class="indented">Here is another paragraph under a different subheading, continuing the discussion with more details and examples to illustrate the points made.</p>
+    
+    <h2>Subheading 3</h2>
+    <p class="indented">Finally, this paragraph wraps up the content, summarizing the key points and encouraging the reader to take action or reflect on the information provided.</p>
+    
+    <div class="links">
+        <a href="#link1">Link 1</a>
+        <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a>
+    </div>
 </body>
 </html>
